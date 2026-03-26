@@ -1,9 +1,12 @@
+"use client";
+
+import Banner from "@/Components/Banner";
 import Image from "next/image";
 
 export default function Home() {
   return (
     <div>
-      <h1>Hello world</h1>
+      <Banner />
     </div>
   );
 }
