@@ -69,7 +69,7 @@ const StoryDetailsPage = async ({ params }) => {
       image: "https://randomuser.me/api/portraits/men/56.jpg",
     },
   ];
-
+  // This is main
   const story = devStory.find((story) => story.id == id);
 
   return (
